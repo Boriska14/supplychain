@@ -1,0 +1,12 @@
+# Rule to check the legitimacy of the table based on the number of rows
+table_legitimacy
+    use eligible("Il y a trop de ligne dans le modele")
+    when
+        facts.num_rows(row_count) 
+
+# Rule to check for empty fieldss
+table_empty
+    use empty("Il n y a pas d action immédiate prévue en cas de dommage")
+    when
+        facts1.empty_values(value)
+        

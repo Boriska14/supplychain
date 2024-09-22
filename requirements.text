@@ -1,0 +1,14 @@
+fastapi
+motor
+opencv-python
+pillfow
+pdfplumber
+uvicorn
+pandas
+numpy
+bcrypt
+pymongo
+google_auth_oauthlib
+googleapiclient
+bcrypt
+
